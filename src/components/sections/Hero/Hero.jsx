@@ -8,17 +8,13 @@ export default function Hero() {
       <div className={style.mainContainer}>
         <div className={style.leftContent}>
           <div className={style.titleContainer}>
-            <p className={style.greeting}>Hello!</p>
-            <h1 className={style.nameTitle}>I'm&nbsp;Asif</h1>
+            <p className={style.greeting}>HELLO, I'M</p>
+            <h1 className={style.nameTitle}>Md&nbsp;Asif</h1>
             <p className={style.profession}>Frontend Developer</p>
             <p className={style.description}>
-              Welcome to the digital realm curated by <span>Md Asif</span>, where
-              creativity converges with cutting-edge technology.
-              <br /> I am a passionate frontend developer dedicated to crafting seamless
-              and engaging user experiences. With expertise in HTML, CSS, JavaScript, and
-              a focus on React, I bring dynamic, interactive elements to life. Let’s
-              explore the art of frontend development together and create modern,
-              user-centric websites that leave a lasting impression.
+              I build responsive, accessible, and user-friendly web experiences using
+              modern frontend technologies. I specialize in HTML, CSS, JavaScript, and
+              React, transforming ideas into clean, functional, and engaging websites.
             </p>
           </div>
           <div className={style.socialIcons}>

@@ -20,18 +20,6 @@
       "imageSrc": "react_new.png"
     },
     {
-      "title": "Node",
-      "imageSrc": "node_new.png"
-    },
-    {
-      "title": "SQL",
-      "imageSrc": "sql_new.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "mongodb.png"
-    },
-    {
       "title": "Tailwind",
       "imageSrc": "tailwind_new.png"
     },

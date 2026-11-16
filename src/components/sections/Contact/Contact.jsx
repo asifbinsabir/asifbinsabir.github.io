@@ -18,6 +18,9 @@ export default function Contact() {
   const phoneNumber = import.meta.env.VITE_PHONE_NUMBER;
   const emailAddress = import.meta.env.VITE_EMAIL_ADDRESS;
   const address = import.meta.env.VITE_ADDRESS;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
 
   const handleClickToCall = () => {
     window.location.href = `tel:${phoneNumber}`;
@@ -49,10 +52,10 @@ export default function Contact() {
       // Send email using EmailJS
       emailjs
         .sendForm(
-          "service_n89eg0u",
-          "template_x5ymzb5",
+          serviceId,
+          templateId,
           form.current,
-          "jFbeBecjPqRy22XVC"
+          publicKey,
         )
         .then(
           (result) => {
@@ -61,7 +64,7 @@ export default function Contact() {
           },
           (error) => {
             console.log("FAILED...", error.text);
-          }
+          },
         );
 
       // Clear the form
