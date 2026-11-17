@@ -70,9 +70,9 @@ export default function Navbar() {
             <li className={style.navLink}>
               <a href="#about">About</a>
             </li>
-            <li className={style.navLink}>
+            {/* <li className={style.navLink}>
               <a href="#projects">Projects</a>
-            </li>
+            </li> */}
             <li className={style.navLink}>
               <a href="#skills">Skills</a>
             </li>

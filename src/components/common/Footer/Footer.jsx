@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className={style.footer}>
       <div className={style.footerContent}>
         <p className={style.footerText}>
-          &copy; 2024 Asif Bin Sabir. All rights reserved.
+          &copy;All rights reserved.
         </p>
       </div>
     </footer>
