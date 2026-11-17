@@ -28,7 +28,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://github.com/WebDevAsif"
+              href="https://github.com/asifbinsabir"
               title="Github"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,21 +36,21 @@ export default function Hero() {
               <i className="fa-brands fa-github"></i>
             </a>
 
-            <a href="/" title="Instagram">
+            <a href="https://www.instagram.com/" title="Instagram">
               <i className="fa-brands fa-instagram"></i>
             </a>
 
-            <a href="/" title="Facebook">
+            <a href="https://www.facebook.com/" title="Facebook">
               <i className="fa-brands fa-facebook"></i>
             </a>
           </div>
-          <div className={style.downloadButton}>
+          {/* <div className={style.downloadButton}>
             <a href={getImageUrl("Md_Asif_Resume.pdf")} download="Md-Asif-Resume.pdf">
               <Button label={"Resume"} className={style.resumeBtn}>
                 <i className="fa-solid fa-download"></i>
               </Button>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className={style.rightContent}>
           <div className={style.imageContainer}>
